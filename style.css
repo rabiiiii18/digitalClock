@@ -1,0 +1,73 @@
+@font-face {
+    font-family: DS-DIGITAL;
+    /* src: url(DS-DIGI.TTF); */
+    src: url(DS-DIGIT.TTF);
+}
+
+* {
+    font-family: DS-Digital;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.clock {
+    background-color: rgb(27, 27, 27);
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    padding-bottom: 1%;
+}
+
+.date {
+    display: flex;
+    justify-content: space-around;
+    /* background-color:white; */
+    color: #fff;
+}
+
+.time {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 3%;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: rgb(27, 27, 27); */
+}
+
+span {
+    /* background-color: rgb(142, 13, 13); */
+    padding: 2px 10px;
+}
+
+.days .highlight {
+    color: red;
+    /* Highlight color */
+    font-weight: bold;
+}
+
+.days {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sevenDays {
+    margin: 0 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.day,
+.fullDate {
+    font-size: 20px;
+}
